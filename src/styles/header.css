@@ -1,0 +1,44 @@
+.header {
+  background: #ffdad5;
+  padding-top: 20px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+}
+.header__links {
+  display: flex;
+  column-gap: 40px;
+}
+.header__link {
+  color: var(--gray-800, #424551);
+  font-weight: 700;
+}
+.header__link:hover {
+  color: #FF3F3A;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  column-gap: 26px;
+}
+.header__login-svg {
+  position: absolute;
+  right: 14.3%;
+}
+.header__register {
+  background: transparent;
+  color: #424551;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  padding-left: 36px;
+}
+
+/*# sourceMappingURL=header.css.map */
