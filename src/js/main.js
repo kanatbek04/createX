@@ -1,3 +1,12 @@
+
+let burger = document.querySelector('.header__burger')
+let burgerMenu = document.querySelector('.header__burgerMenu')
+
+
+burger.addEventListener('click',() => {
+    burger.classList.toggle('active')
+    burgerMenu.classList.toggle('active')
+})
 $(function() {
 
     $('ul.benefits__link').on('click', 'li:not(.active)', function() {
@@ -19,3 +28,4 @@ var swiper = new Swiper(".team__swiper", {
     },
     loop:true
 });
+
